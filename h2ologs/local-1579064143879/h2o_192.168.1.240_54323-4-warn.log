@@ -1,0 +1,50 @@
+01-14 20:55:45.851 192.168.1.240:54323   52207  Thread-3  WARN: Flatfile configuration does not include self: ambig.attlocal.net/192.168.1.240:54323, but contains []
+01-14 20:55:47.313 192.168.1.240:54323   52207  Thread-3  WARN: Your system supports only minimal version of XGBoost (no GPUs, no multithreading)!
+01-14 21:04:02.009 192.168.1.240:54323   52207  FJ-1-7    WARN: Model training job GBM completed with exception: water.Job$JobCancelledException
+01-14 21:04:16.416 192.168.1.240:54323   52207  FJ-2-7    WARN: Model training job XGBoost def_1 completed with exception: water.Job$JobCancelledException
+01-14 21:04:17.255 192.168.1.240:54323   52207  FJ-1-1    WARN: Workflow: Empty leaderboard.
+01-14 21:04:17.255 192.168.1.240:54323   52207  FJ-1-1    WARN: AutoML was not able to build any model within a max runtime constraint of 0 seconds, you may want to increase this value before retrying.
+01-14 21:04:57.100 192.168.1.240:54323   52207  FJ-2-19   WARN: _ntrees: Setting optimal _ntrees to 326 for cross-validation main model based on early stopping of cross-validation models.
+01-14 21:04:57.102 192.168.1.240:54323   52207  FJ-2-19   WARN: _stopping_rounds: Disabling convergence-based early stopping for cross-validation main model.
+01-14 21:04:57.102 192.168.1.240:54323   52207  FJ-2-19   WARN: _max_runtime_secs: Disabling maximum allowed runtime for cross-validation main model.
+01-14 21:04:57.648 192.168.1.240:54323   52207  FJ-3-3    WARN: _stopping_tolerance: Stopping tolerance is ignored for _stopping_rounds=0.
+01-14 21:05:42.795 192.168.1.240:54323   52207  FJ-2-1    WARN: _ntrees: Setting optimal _ntrees to 330 for cross-validation main model based on early stopping of cross-validation models.
+01-14 21:05:42.797 192.168.1.240:54323   52207  FJ-2-1    WARN: _stopping_rounds: Disabling convergence-based early stopping for cross-validation main model.
+01-14 21:05:42.797 192.168.1.240:54323   52207  FJ-2-1    WARN: _max_runtime_secs: Disabling maximum allowed runtime for cross-validation main model.
+01-14 21:05:43.176 192.168.1.240:54323   52207  FJ-3-1    WARN: _stopping_metric: Stopping metric is ignored for _stopping_rounds=0.
+01-14 21:05:43.176 192.168.1.240:54323   52207  FJ-3-1    WARN: _stopping_tolerance: Stopping tolerance is ignored for _stopping_rounds=0.
+01-14 21:06:27.137 192.168.1.240:54323   52207  FJ-2-31   WARN: _ntrees: Setting optimal _ntrees to 416 for cross-validation main model based on early stopping of cross-validation models.
+01-14 21:06:27.138 192.168.1.240:54323   52207  FJ-2-31   WARN: _stopping_rounds: Disabling convergence-based early stopping for cross-validation main model.
+01-14 21:06:27.138 192.168.1.240:54323   52207  FJ-2-31   WARN: _max_runtime_secs: Disabling maximum allowed runtime for cross-validation main model.
+01-14 21:06:27.489 192.168.1.240:54323   52207  FJ-3-7    WARN: _stopping_metric: Stopping metric is ignored for _stopping_rounds=0.
+01-14 21:06:27.489 192.168.1.240:54323   52207  FJ-3-7    WARN: _stopping_tolerance: Stopping tolerance is ignored for _stopping_rounds=0.
+01-14 21:06:43.377 192.168.1.240:54323   52207  FJ-2-3    WARN: _ntrees: Setting optimal _ntrees to 50 for cross-validation main model based on early stopping of cross-validation models.
+01-14 21:06:43.377 192.168.1.240:54323   52207  FJ-2-3    WARN: _stopping_rounds: Disabling convergence-based early stopping for cross-validation main model.
+01-14 21:06:43.377 192.168.1.240:54323   52207  FJ-2-3    WARN: _max_runtime_secs: Disabling maximum allowed runtime for cross-validation main model.
+01-14 21:06:43.597 192.168.1.240:54323   52207  FJ-3-7    WARN: _stopping_metric: Stopping metric is ignored for _stopping_rounds=0.
+01-14 21:06:43.597 192.168.1.240:54323   52207  FJ-3-7    WARN: _stopping_tolerance: Stopping tolerance is ignored for _stopping_rounds=0.
+01-14 21:06:49.570 192.168.1.240:54323   52207  FJ-2-3    WARN: _ntrees: Setting optimal _ntrees to 196 for cross-validation main model based on early stopping of cross-validation models.
+01-14 21:06:49.570 192.168.1.240:54323   52207  FJ-2-3    WARN: _stopping_rounds: Disabling convergence-based early stopping for cross-validation main model.
+01-14 21:06:49.570 192.168.1.240:54323   52207  FJ-2-3    WARN: _max_runtime_secs: Disabling maximum allowed runtime for cross-validation main model.
+01-14 21:06:50.164 192.168.1.240:54323   52207  FJ-3-15   WARN: _stopping_metric: Stopping metric is ignored for _stopping_rounds=0.
+01-14 21:06:50.164 192.168.1.240:54323   52207  FJ-3-15   WARN: _stopping_tolerance: Stopping tolerance is ignored for _stopping_rounds=0.
+01-14 21:06:57.451 192.168.1.240:54323   52207  FJ-2-31   WARN: _ntrees: Setting optimal _ntrees to 178 for cross-validation main model based on early stopping of cross-validation models.
+01-14 21:06:57.452 192.168.1.240:54323   52207  FJ-2-31   WARN: _stopping_rounds: Disabling convergence-based early stopping for cross-validation main model.
+01-14 21:06:57.452 192.168.1.240:54323   52207  FJ-2-31   WARN: _max_runtime_secs: Disabling maximum allowed runtime for cross-validation main model.
+01-14 21:06:58.021 192.168.1.240:54323   52207  FJ-3-15   WARN: _stopping_metric: Stopping metric is ignored for _stopping_rounds=0.
+01-14 21:06:58.021 192.168.1.240:54323   52207  FJ-3-15   WARN: _stopping_tolerance: Stopping tolerance is ignored for _stopping_rounds=0.
+01-14 21:07:04.352 192.168.1.240:54323   52207  FJ-2-27   WARN: _ntrees: Setting optimal _ntrees to 156 for cross-validation main model based on early stopping of cross-validation models.
+01-14 21:07:04.352 192.168.1.240:54323   52207  FJ-2-27   WARN: _stopping_rounds: Disabling convergence-based early stopping for cross-validation main model.
+01-14 21:07:04.352 192.168.1.240:54323   52207  FJ-2-27   WARN: _max_runtime_secs: Disabling maximum allowed runtime for cross-validation main model.
+01-14 21:07:04.906 192.168.1.240:54323   52207  FJ-3-11   WARN: _stopping_metric: Stopping metric is ignored for _stopping_rounds=0.
+01-14 21:07:04.907 192.168.1.240:54323   52207  FJ-3-11   WARN: _stopping_tolerance: Stopping tolerance is ignored for _stopping_rounds=0.
+01-14 21:07:11.311 192.168.1.240:54323   52207  FJ-2-5    WARN: _ntrees: Setting optimal _ntrees to 130 for cross-validation main model based on early stopping of cross-validation models.
+01-14 21:07:11.311 192.168.1.240:54323   52207  FJ-2-5    WARN: _stopping_rounds: Disabling convergence-based early stopping for cross-validation main model.
+01-14 21:07:11.311 192.168.1.240:54323   52207  FJ-2-5    WARN: _max_runtime_secs: Disabling maximum allowed runtime for cross-validation main model.
+01-14 21:07:11.926 192.168.1.240:54323   52207  FJ-3-5    WARN: _stopping_metric: Stopping metric is ignored for _stopping_rounds=0.
+01-14 21:07:11.926 192.168.1.240:54323   52207  FJ-3-5    WARN: _stopping_tolerance: Stopping tolerance is ignored for _stopping_rounds=0.
+01-14 21:07:20.942 192.168.1.240:54323   52207  FJ-2-9    WARN: _ntrees: Setting optimal _ntrees to 216 for cross-validation main model based on early stopping of cross-validation models.
+01-14 21:07:20.942 192.168.1.240:54323   52207  FJ-2-9    WARN: _stopping_rounds: Disabling convergence-based early stopping for cross-validation main model.
+01-14 21:07:20.942 192.168.1.240:54323   52207  FJ-2-9    WARN: _max_runtime_secs: Disabling maximum allowed runtime for cross-validation main model.
+01-14 21:07:21.728 192.168.1.240:54323   52207  FJ-3-11   WARN: _stopping_metric: Stopping metric is ignored for _stopping_rounds=0.
+01-14 21:07:21.728 192.168.1.240:54323   52207  FJ-3-11   WARN: _stopping_tolerance: Stopping tolerance is ignored for _stopping_rounds=0.
