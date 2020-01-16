@@ -1,0 +1,72 @@
+01-14 17:58:46.232 10.1.141.71:54323     50801  #74943-53 ERRR: _distribution: Binomial requires the response to be a 2-class categorical
+01-14 17:58:46.232 10.1.141.71:54323     50801  #74943-53 ERRR: 
+01-14 17:58:46.232 10.1.141.71:54323     50801  #74943-53 ERRR: For more information visit:
+01-14 17:58:46.232 10.1.141.71:54323     50801  #74943-53 ERRR:   http://jira.h2o.ai/browse/TN-2
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: water.exceptions.H2OModelBuilderIllegalArgumentException: Illegal argument(s) for GBM model: GBM_model_python_1579050346225_5669.  Details: ERRR on field: _distribution: Binomial requires the response to be a 2-class categorical
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: For more information visit:
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR:   http://jira.h2o.ai/browse/TN-2
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at water.exceptions.H2OModelBuilderIllegalArgumentException.makeFromBuilder(H2OModelBuilderIllegalArgumentException.java:19)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at hex.ModelBuilder.trainModelOnH2ONode(ModelBuilder.java:301)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at water.api.ModelBuilderHandler.handle(ModelBuilderHandler.java:64)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at water.api.ModelBuilderHandler.handle(ModelBuilderHandler.java:17)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at water.api.RequestServer.serve(RequestServer.java:471)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at water.api.RequestServer.doGeneric(RequestServer.java:301)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at water.api.RequestServer.doPost(RequestServer.java:227)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at ai.h2o.org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:848)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at ai.h2o.org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:584)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at ai.h2o.org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at ai.h2o.org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at ai.h2o.org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at ai.h2o.org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at ai.h2o.org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at ai.h2o.org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at water.webserver.jetty9.Jetty9ServerAdapter$LoginHandler.handle(Jetty9ServerAdapter.java:119)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at ai.h2o.org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at ai.h2o.org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at ai.h2o.org.eclipse.jetty.server.Server.handle(Server.java:534)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at ai.h2o.org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at ai.h2o.org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at ai.h2o.org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at ai.h2o.org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at ai.h2o.org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at ai.h2o.org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at ai.h2o.org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at ai.h2o.org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at ai.h2o.org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at ai.h2o.org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+01-14 17:58:46.237 10.1.141.71:54323     50801  #74943-53 ERRR: 	at java.lang.Thread.run(Thread.java:748)
+01-14 20:14:09.051 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.io.IOException: Broken pipe
+01-14 20:15:30.007 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:16:50.481 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:18:10.906 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:19:31.373 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:20:51.651 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:22:11.751 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:23:31.868 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:24:52.010 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:26:12.126 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:27:32.240 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:28:52.420 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:30:12.564 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:31:33.594 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:32:53.692 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:34:13.842 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:35:33.932 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:36:54.024 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:38:14.179 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:39:34.306 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:40:54.445 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:42:14.541 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:43:34.950 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:44:55.373 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:46:15.734 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.SocketException: Network is unreachable
+01-14 20:47:38.182 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:49:07.081 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:50:35.541 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:52:05.006 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
+01-14 20:53:33.581 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.SocketException: Network is unreachable
+01-14 20:55:03.983 10.1.141.71:54323     50801  #71:54323 ERRR: Got IO error when sending a batch of bytes: java.net.ConnectException: Operation timed out
