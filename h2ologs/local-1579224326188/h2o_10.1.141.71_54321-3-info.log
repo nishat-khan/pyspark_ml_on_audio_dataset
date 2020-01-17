@@ -1,0 +1,64 @@
+01-16 17:25:37.985 10.1.141.71:54321     59664  Thread-3  INFO: ----- H2O started  -----
+01-16 17:25:37.999 10.1.141.71:54321     59664  Thread-3  INFO: Build git branch: rel-yu
+01-16 17:25:37.999 10.1.141.71:54321     59664  Thread-3  INFO: Build git hash: e71750325794d5e2b6c924fa045d5b697bf7bc5b
+01-16 17:25:37.999 10.1.141.71:54321     59664  Thread-3  INFO: Build git describe: jenkins-master-4891-7-ge717503
+01-16 17:25:37.999 10.1.141.71:54321     59664  Thread-3  INFO: Build project version: 3.28.0.1
+01-16 17:25:37.999 10.1.141.71:54321     59664  Thread-3  INFO: Build age: 30 days
+01-16 17:25:37.999 10.1.141.71:54321     59664  Thread-3  INFO: Built by: 'jenkins'
+01-16 17:25:37.999 10.1.141.71:54321     59664  Thread-3  INFO: Built on: '2019-12-16 18:50:06'
+01-16 17:25:37.999 10.1.141.71:54321     59664  Thread-3  INFO: Found H2O Core extensions: [HiveTableImporter, StackTraceCollector, Watchdog, XGBoost]
+01-16 17:25:38.000 10.1.141.71:54321     59664  Thread-3  INFO: Processed H2O arguments: [-allow_clients, -internal_security_conf_rel_paths, -name, sparkling-water-kathleenyi_local-1579224326188, -port_offset, 1, -client_disconnect_timeout, 60000, -embedded, -quiet, -log_level, INFO, -log_dir, /Users/kathleenyi/Documents/GitHub/pyspark_ml_on_audio_dataset/h2ologs/local-1579224326188, -baseport, 54321, -ip, 10.1.141.71, -flatfile, /private/var/folders/8t/skm9gdts2kggqc8dtrzz6sxc0000gn/T/spark-65ea52c6-93b6-438c-81ca-ed9f56ab860d/sparkling-water-70afa664-65bc-49a6-9830-0b1dc47f525b/flatfile.txt]
+01-16 17:25:38.000 10.1.141.71:54321     59664  Thread-3  INFO: Java availableProcessors: 4
+01-16 17:25:38.000 10.1.141.71:54321     59664  Thread-3  INFO: Java heap totalMemory: 140.0 MB
+01-16 17:25:38.000 10.1.141.71:54321     59664  Thread-3  INFO: Java heap maxMemory: 910.5 MB
+01-16 17:25:38.000 10.1.141.71:54321     59664  Thread-3  INFO: Java version: Java 1.8.0_231 (from Oracle Corporation)
+01-16 17:25:38.000 10.1.141.71:54321     59664  Thread-3  INFO: JVM launch parameters: [-Xmx1g]
+01-16 17:25:38.000 10.1.141.71:54321     59664  Thread-3  INFO: JVM process id: 59664@ambig.local
+01-16 17:25:38.000 10.1.141.71:54321     59664  Thread-3  INFO: OS version: Mac OS X 10.12.6 (x86_64)
+01-16 17:25:38.000 10.1.141.71:54321     59664  Thread-3  INFO: Machine physical memory: 8.00 GB
+01-16 17:25:38.000 10.1.141.71:54321     59664  Thread-3  INFO: Machine locale: en_US
+01-16 17:25:38.000 10.1.141.71:54321     59664  Thread-3  INFO: X-h2o-cluster-id: 1579224332098
+01-16 17:25:38.000 10.1.141.71:54321     59664  Thread-3  INFO: User name: 'kathleenyi'
+01-16 17:25:38.000 10.1.141.71:54321     59664  Thread-3  INFO: IPv6 stack selected: false
+01-16 17:25:38.000 10.1.141.71:54321     59664  Thread-3  INFO: Network address/interface is not reachable in 150ms: /fe80:0:0:0:d33:ac4f:2d6b:66ae%utun1/name:utun1 (utun1)
+01-16 17:25:38.000 10.1.141.71:54321     59664  Thread-3  INFO: Network address/interface is not reachable in 150ms: /fe80:0:0:0:245a:5501:847:3933%utun0/name:utun0 (utun0)
+01-16 17:25:38.000 10.1.141.71:54321     59664  Thread-3  INFO: Network address/interface is not reachable in 150ms: /fe80:0:0:0:3855:f7ff:fec5:6321%awdl0/name:awdl0 (awdl0)
+01-16 17:25:38.000 10.1.141.71:54321     59664  Thread-3  INFO: Possible IP Address: en0 (en0), fe80:0:0:0:8a1:4532:34a3:3ded%en0
+01-16 17:25:38.000 10.1.141.71:54321     59664  Thread-3  INFO: Possible IP Address: en0 (en0), 10.1.141.71
+01-16 17:25:38.000 10.1.141.71:54321     59664  Thread-3  INFO: Possible IP Address: lo0 (lo0), fe80:0:0:0:0:0:0:1%lo0
+01-16 17:25:38.000 10.1.141.71:54321     59664  Thread-3  INFO: Possible IP Address: lo0 (lo0), 0:0:0:0:0:0:0:1%lo0
+01-16 17:25:38.000 10.1.141.71:54321     59664  Thread-3  INFO: Possible IP Address: lo0 (lo0), 127.0.0.1
+01-16 17:25:38.000 10.1.141.71:54321     59664  Thread-3  INFO: H2O node running in unencrypted mode.
+01-16 17:25:38.003 10.1.141.71:54321     59664  Thread-3  INFO: Internal communication uses port: 54322
+01-16 17:25:38.003 10.1.141.71:54321     59664  Thread-3  INFO: Listening for HTTP and REST traffic on http://10.1.141.71:54321/
+01-16 17:25:38.004 10.1.141.71:54321     59664  Thread-3  WARN: Flatfile configuration does not include self: /10.1.141.71:54321, but contains []
+01-16 17:25:38.004 10.1.141.71:54321     59664  Thread-3  INFO: H2O cloud name: 'sparkling-water-kathleenyi_local-1579224326188' on /10.1.141.71:54321, discovery address /227.58.185.211:58170
+01-16 17:25:38.005 10.1.141.71:54321     59664  Thread-3  INFO: If you have trouble connecting, try SSH tunneling from your local machine (e.g., via port 55555):
+01-16 17:25:38.005 10.1.141.71:54321     59664  Thread-3  INFO:   1. Open a terminal and run 'ssh -L 55555:localhost:54321 kathleenyi@10.1.141.71'
+01-16 17:25:38.005 10.1.141.71:54321     59664  Thread-3  INFO:   2. Point your browser to http://localhost:55555
+01-16 17:25:38.425 10.1.141.71:54321     59664  Thread-3  INFO: Log dir: '/Users/kathleenyi/Documents/GitHub/pyspark_ml_on_audio_dataset/h2ologs/local-1579224326188'
+01-16 17:25:38.426 10.1.141.71:54321     59664  Thread-3  INFO: Cur dir: '/Users/kathleenyi/Documents/GitHub/pyspark_ml_on_audio_dataset'
+01-16 17:25:38.435 10.1.141.71:54321     59664  Thread-3  INFO: Distributed HTTP import not available (import from HTTP/HTTPS will be eager)
+01-16 17:25:38.437 10.1.141.71:54321     59664  Thread-3  INFO: HDFS subsystem successfully initialized
+01-16 17:25:38.442 10.1.141.71:54321     59664  Thread-3  INFO: S3 subsystem successfully initialized
+01-16 17:25:38.472 10.1.141.71:54321     59664  Thread-3  INFO: GCS subsystem successfully initialized
+01-16 17:25:38.472 10.1.141.71:54321     59664  Thread-3  INFO: Flow dir: '/Users/kathleenyi/h2oflows'
+01-16 17:25:38.486 10.1.141.71:54321     59664  Thread-3  INFO: Cloud of size 1 formed [/10.1.141.71:54321]
+01-16 17:25:38.500 10.1.141.71:54321     59664  Thread-3  INFO: Registered parsers: [GUESS, ARFF, XLS, SVMLight, AVRO, ORC, PARQUET, CSV]
+01-16 17:25:38.501 10.1.141.71:54321     59664  Thread-3  INFO: HiveTableImporter extension initialized
+01-16 17:25:38.501 10.1.141.71:54321     59664  Thread-3  INFO: StackTraceCollector extension initialized
+01-16 17:25:38.501 10.1.141.71:54321     59664  Thread-3  INFO: Watchdog extension initialized
+01-16 17:25:38.501 10.1.141.71:54321     59664  Thread-3  INFO: XGBoost extension initialized
+01-16 17:25:38.501 10.1.141.71:54321     59664  Thread-3  INFO: Registered 4 core extensions in: 46ms
+01-16 17:25:38.501 10.1.141.71:54321     59664  Thread-3  INFO: Registered H2O core extensions: [HiveTableImporter, StackTraceCollector, Watchdog, XGBoost]
+01-16 17:25:38.865 10.1.141.71:54321     59664  Thread-3  INFO: Found XGBoost backend with library: xgboost4j_minimal
+01-16 17:25:38.865 10.1.141.71:54321     59664  Thread-3  WARN: Your system supports only minimal version of XGBoost (no GPUs, no multithreading)!
+01-16 17:25:38.988 10.1.141.71:54321     59664  Thread-3  INFO: Registered: 186 REST APIs in: 487ms
+01-16 17:25:38.988 10.1.141.71:54321     59664  Thread-3  INFO: Registered REST API extensions: [XGBoost, Algos, Amazon S3, AutoML, Core V3, TargetEncoder, Core V4]
+01-16 17:25:39.250 10.1.141.71:54321     59664  Thread-3  INFO: Registered: 294 schemas in 262ms
+01-16 17:25:39.250 10.1.141.71:54321     59664  Thread-3  INFO: H2O started in 7113ms
+01-16 17:25:39.250 10.1.141.71:54321     59664  Thread-3  INFO: 
+01-16 17:25:39.250 10.1.141.71:54321     59664  Thread-3  INFO: Open H2O Flow in your web browser: http://10.1.141.71:54321
+01-16 17:25:39.250 10.1.141.71:54321     59664  Thread-3  INFO: 
+01-16 17:25:47.396 10.1.141.71:54321     59664  #64862-55 INFO: GET /3/Capabilities/API, parms: {}
+01-16 17:25:47.397 10.1.141.71:54321     59664  #64862-55 INFO: Locking cloud to new members, because water.api.schemas3.CapabilitiesV3
