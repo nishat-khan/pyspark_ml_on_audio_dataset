@@ -3,8 +3,10 @@
 ## Project Description
 
 This project aims at recognising speakers based on their audio files.
-- Binary classification based on reported, binary gender with F1 score of `0.89`
-- Be able to recognise 47 speakers with mean class per error of `0.196`
+- Binary classification for gender of speaker:
+	Based on reported, binary gender with F1 score of `0.89`
+- Multi-class classification with 47 speakers:
+	Be able to recognise the speakers with mean class per error of `0.196`
 
 See our jupyter notebook for data preprocessing using Python and exploratory data analysis done using PySpark.
 
